@@ -1,2 +1,1 @@
-# GSG-Homwork-02
-GOOGLE SEARCH PAIGE USING HTML CSS
+google search result paige using html & css as homework-02 in React course in GSG
