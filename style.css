@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+/* Page Header Start*/
+.pageHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+    flex-wrap: wrap;
+}
+.sign-in-btn{
+    background-color: #4285f4;
+    height: 30px;
+    width: 65px;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    line-height: 30px;
+}
+.searchBar{
+    width: 625px;
+    height: 45px;
+    border-radius: 100px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.pageHeader__rigthSection{
+    display: flex;
+    justify-self: baseline;
+    margin: 15px;
+}
+.pageHeader__leftSection{
+    display: flex;
+    justify-self: center;
+    margin: 15px;
+}
+/* Page Header End*/
+
+/* Page Navbar Start*/
+.pageNavbar{
+    display: flex;
+    padding-left: 150px;
+    color: darkgray;
+    border-width: 0px;
+    border-bottom: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    flex-wrap: wrap;
+}
+.pageNavBar__leftSection{
+    margin-left: 100px;
+}
+.pageNavbar ul{
+    list-style-type: none;
+    padding: 0px 8px 0px 8px;
+    display: flex; 
+}
+.pageNavbar ul li{
+    list-style-type: none;
+    padding: 10px;
+    display: flex; 
+    margin: 0px 3px 0px 3px;
+    cursor: pointer;
+}
+.navbarSelectedItem{
+    color: #4285f4;
+    font-weight: bold;
+    border-width: 0px;
+    border-bottom: 3px;
+    border-color: #4285f4;
+    border-style: solid;
+}
+/* Page Navbar End*/
+
+/* Page Main Start*/
+
+/* Right Section Start*/
+.pageMain{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pageMain__rightSection{
+    padding-left: 170px;
+}
+.lightFont{
+    margin: 20px 20px 0px 20px;
+    color: darkgray;
+}
+.pageMain__subSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.pageMain__subSection *{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.mainLink{
+    text-decoration: none;
+    color: #1A0EAB;
+    font-size: x-large;
+}
+.mainLink:hover{
+    text-decoration: underline;
+    font-size: x-large;
+}
+.subsection__paragraph{
+    max-width: 630px;
+}
+.sub__subSection{
+    display: flex;
+}
+.column__subSection{
+    margin-left: 50px;
+}
+.subSubSection__paragraph{
+    max-width: 200px;   
+    margin: 10px;
+}
+.subLink{
+    margin-top: 15px;
+}
+.inlineDisplay{
+    display: flex;
+    flex-direction: row;
+}
+.paragraph__borders{
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 20px;
+}
+.paragraph__borders *{
+    padding: 15px;
+}
+.sub__paragraphBorders{
+    border-width: 0px;
+    border-bottom: 1px;
+    border-color: lightgray;
+    border-style: solid; 
+}
+.videos__slider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sliderBorder{
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    width: 260px;
+    height: 320px;
+}
+.noMrgineIMG{
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.relatedSearchSection{
+    display: flex;
+    
+}
+/* Right Section End*/
+
+/* Left Section Start*/
+.pageMain__leftSection{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.cardOne{
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    width: 420px;
+}
+.cardOne__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border-width: 0px;
+    border-bottom: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+.rightSection__OneCardHeader{
+    align-self: center;
+}
+.rightSection__OneCardHeader *{
+    padding: 5px;
+}
+.cardParagraph{
+    padding: 10px;
+}
+.cardOne__Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cardOne__Footer *{
+    padding: 15px ;
+}
+/* Left Section End*/
+
+/* Page Main End*/
+
+.pageFooter{
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    align-self: center;
+}
+
+.pageFooter a{
+    text-decoration: none;
+    display: flex;
+    color: #000;
+    margin: 0 20px 0 10px;
+    line-height: 30px;
+    color: rgba(0,0,0,0.87);
+    line-height: 40px;
+    color: rgb(99, 99, 99);
+}
+
+.pageFooter ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+}
